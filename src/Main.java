@@ -9,7 +9,7 @@ public class Main {
             frame.setLocationRelativeTo(null);
 
             JLabel label = new JLabel("¿De cuántos módulos estas matriculado?", JLabel.CENTER);
-            CustonSpinner spinner = new CustonSpinner();
+            CustomSpinner spinner = new CustomSpinner();
 
             JPanel panel = new JPanel();
             panel.add(label);
